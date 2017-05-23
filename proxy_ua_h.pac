@@ -1,5 +1,5 @@
 // ProstoVPN.AntiZapret PAC-host File
-// Generated on Mon May 22 19:28:28 MSK 2017
+// Generated on Tue May 23 15:30:00 MSK 2017
 
 // Version: ua: 2017.0523.0030
 
