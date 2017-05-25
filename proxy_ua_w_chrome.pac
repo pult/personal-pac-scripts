@@ -1,7 +1,6 @@
 // ProstoVPN.AntiZapret PAC-host File
-// Generated on Tue May 23 15:30:00 MSK 2017
-
-// Version: ua: 2017.0523.0030
+// Generated on Tue May 26 00:30:00 MSK 2017
+// Version: ua: 2017.0526.0030
 
 function FindProxyForURL(url, host) {
 
@@ -22,45 +21,15 @@ d_all = [
 "mail.yandex.ua",
 "vk.com",
 "www.kinopoisk.ru",
+"yadi.sk",
 "yandex.net",
 "yandex.ru",
 "yandex.ua",
 "yastatic.net",
 ];
 
-/*
-d_ad = [
-"club-vulkan3.xyz",
-"cloud.mail.ru",
-];
-
-d_eh = [
-"hentai-x.ru",
-];
-
-d_il = [
-"kinopoisk.ru",
-];
-
-d_mp = [
-"mail.ru",
-];
-
-d_qt = [
-"super-million8.com",
-];
-
-d_uz = [
-"vulcan1.com",
-];
-
-d_other = [
-"vk.com",
-"www.kinopoisk.ru",
-]
-//*/
-
 d_ipaddr = [
+"213.180.193.50",
 "52.57.217.52",
 "72.21.81.13",
 "77.88.55.66",
@@ -74,13 +43,6 @@ d_ipaddr = [
   else
     host = host.replace(/(.+)\.([^.]+\.[^.]+$)/, "$2");
 
-  /*if (/^[a-d]/.test(host)) curarr = d_ad;
-  else if (/^[e-h]/.test(host)) curarr = d_eh;
-  else if (/^[i-l]/.test(host)) curarr = d_il;
-  else if (/^[m-p]/.test(host)) curarr = d_mp;
-  else if (/^[q-t]/.test(host)) curarr = d_qt;
-  else if (/^[u-z]/.test(host)) curarr = d_uz;
-  else curarr = d_other; //*/
   curarr = d_all;
 
   var oip = dnsResolve(host);
@@ -95,7 +57,7 @@ d_ipaddr = [
   }
 
   return p_default;
-  //.. */
+//.. */
 }
 
 //
