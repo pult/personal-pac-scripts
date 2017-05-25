@@ -59,23 +59,3 @@ d_ipaddr = [
   return p_default;
 //.. */
 }
-
-//
-// Chrome/Opera (not IE/Edge):
-//
-
-//%#@@@@@@ PAC_KITCHEN_STARTS @@@@@@#%
-;+function(global) {
-  "use strict";
-
-  const originalFindProxyForURL = FindProxyForURL;
-  global.FindProxyForURL = function(url, host) {
-
-    const directIfAllowed = ""/* Not allowed. */;
-
-    const pacProxyString = originalFindProxyForURL(url, host).replace(/DIRECT/g, "");
-    return pacProxyString;
-
-  };
-
-}(this);
