@@ -1,18 +1,23 @@
 // ProstoVPN.AntiZapret PAC-host File
-// Generated on Tue May 26 00:30:00 MSK 2017
-// Version: ua: 2017.0526.0030
+// Generated on Tue May 26 05:30:00 MSK 2017
+// Version: 2017.0526.0530
 
 function FindProxyForURL(url, host) {
 
-p_antizapret = "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
-p_foxua = "HTTPS 10.1.0.130:3128; DIRECT";
-p_direct = "DIRECT";
+p_dir = "DIRECT";
+p_ant = "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
+p_fox = "HTTPS 10.1.0.130:3128; DIRECT";
+p_tor = "SOCKS5 127.0.0.1:9150; DIRECT";
 
-//p_default = p_foxua;
-p_default = p_direct;
+//p_blocked = p_tor;
+p_blocked = p_ant;
+
+//p_default = p_fox;
+//p_default = p_tor;
+p_default = p_dir;
 
 d_all = [
-"cloud.mail.ru",
+//"cloud.mail.ru",
 "club-vulkan3.xyz",
 //"disk.yandex.ru",
 "kinopoisk.ru",
@@ -20,12 +25,12 @@ d_all = [
 //"mail.yandex.ru",
 //"mail.yandex.ua",
 "vk.com",
-"www.kinopoisk.ru",
+//"www.kinopoisk.ru",
 "yadi.sk",
-//"yandex.net",
-//"yandex.ru",
-//"yandex.ua",
-//"yastatic.net",
+"yandex.net",
+"yandex.ru",
+"yandex.ua",
+"yastatic.net",
 ];
 
 d_ipaddr = [
@@ -52,7 +57,7 @@ d_ipaddr = [
 
   for (var i = 0; i < curarr.length; i++) {
     if (oip === 1 || host === curarr[i]) {
-      return p_antizapret;
+      return p_blocked;
     }
   }
 
