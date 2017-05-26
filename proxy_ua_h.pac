@@ -1,6 +1,6 @@
 // ProstoVPN.AntiZapret PAC-host File
-// Generated on Tue May 26 05:30:00 MSK 2017
-// Version: 2017.0526.0530
+// Generated on Tue May 26 05:55:00 MSK 2017
+// Version: 2017.0526.0555
 
 function FindProxyForURL(url, host) {
 
@@ -22,6 +22,7 @@ d_all = [
 //"disk.yandex.ru",
 "kinopoisk.ru",
 "mail.ru",
+"mail.ua",
 //"mail.yandex.ru",
 //"mail.yandex.ua",
 "vk.com",
@@ -38,6 +39,7 @@ d_ipaddr = [
 "52.57.217.52",
 "72.21.81.13",
 "77.88.55.66",
+"94.100.180.70",
 "94.76.107.65",
 ]
 
