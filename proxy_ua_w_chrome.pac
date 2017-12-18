@@ -5,7 +5,7 @@
 function FindProxyForURL(url, host) {
 
 p_dir = "DIRECT";
-p_ant = "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
+p_ant = "SOCKS5 127.0.0.1:9150; HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
 p_fox = "HTTPS 10.1.0.130:3128; DIRECT";
 p_tor = "SOCKS5 127.0.0.1:9150; DIRECT";
 
