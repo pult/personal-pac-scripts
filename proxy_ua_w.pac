@@ -9,8 +9,8 @@ p_ant = "SOCKS5 127.0.0.1:9150; HTTPS proxy.antizapret.prostovpn.org:3143; PROXY
 p_fox = "HTTPS 10.1.0.130:3128; DIRECT";
 p_tor = "SOCKS5 127.0.0.1:9150; DIRECT";
 
-//p_blocked = p_tor;
-p_blocked = p_ant;
+p_blocked = p_tor;
+//p_blocked = p_ant;
 
 //p_default = p_fox;
 //p_default = p_tor;
