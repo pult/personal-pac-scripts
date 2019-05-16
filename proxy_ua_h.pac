@@ -31,6 +31,7 @@ d_all = [
 "yandex.ua",
 "yastatic.net",
 //"cloud.mail.ru",
+"cloud-landings-static.hb.bizmrg.com",
 //"rs.mail.ru",
 //"disk.yandex.com",
 //"disk.yandex.ru",
