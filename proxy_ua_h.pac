@@ -42,6 +42,7 @@ d_all = [
 //"tech.yandex.ua",
 //"www.yandex.net",
 //"www.yandex.ua",
+"www.upload.ee",
 ];
 
 d_ipaddr = [
