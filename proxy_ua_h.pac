@@ -55,6 +55,7 @@ d_ipaddr = [
 "79.137.156.161",
 "94.100.180.70",
 "94.76.107.65",
+"95.163.144.221",
 ]
 
 //return "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
