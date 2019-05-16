@@ -34,6 +34,7 @@ d_all = [
 "yandex.ru",
 "yandex.ua",
 "yastatic.net",
+"www.upload.ee",
 ];
 
 d_ipaddr = [
