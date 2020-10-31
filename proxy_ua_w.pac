@@ -35,6 +35,8 @@ d_all = [
 "yandex.ru",
 "yandex.ua",
 "yastatic.net",
+"twitter.com",
+"www.facebook.com",
 ];
 
 d_ipaddr = [
@@ -46,6 +48,8 @@ d_ipaddr = [
 //"94.100.178.105",
 "94.100.180.70",
 "94.76.107.65",
+"104.244.42.129",
+"157.240.9.35",
 ]
 
 //return "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
