@@ -1,6 +1,6 @@
 // ProstoVPN.AntiZapret PAC-host File
 // Generated on Tue May 26 06:45:00 MSK 2017
-// Version: 2019.1128.0230
+// Version: 2020.1031.1055
 
 function FindProxyForURL(url, host) {
 
