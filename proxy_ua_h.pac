@@ -1,5 +1,5 @@
 // ProstoVPN.AntiZapret PAC-host File
-// Version: 2019.1128.0230
+// Version: 2020.1118.2208
 
 function FindProxyForURL(url, host) {
 
