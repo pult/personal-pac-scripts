@@ -1,6 +1,6 @@
 // ProstoVPN.AntiZapret PAC-host File
 // Generated on Tue May 26 06:45:00 MSK 2017
-// Version: 2020.1031.1055
+// Version: 2020.1118.2209
 
 function FindProxyForURL(url, host) {
 
@@ -34,6 +34,7 @@ d_all = [
 "yandex.net",
 "yandex.ru",
 "yandex.ua",
+"img-fotki.yandex.ru",
 "yastatic.net",
 "twitter.com",
 "www.facebook.com",
@@ -50,6 +51,7 @@ d_ipaddr = [
 "94.76.107.65",
 "104.244.42.129",
 "157.240.9.35",
+"10.10.0.93",
 ]
 
 //return "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
