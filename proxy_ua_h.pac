@@ -36,6 +36,7 @@ d_all = [
 //"rs.mail.ru",
 //"disk.yandex.com",
 //"disk.yandex.ru",
+"img-fotki.yandex.ru",
 //"img.imgsmail.ru",
 //"img1.imgsmail.ru",
 //"mail.yandex.ru",
@@ -58,6 +59,7 @@ d_ipaddr = [
 "94.76.107.65",
 "94.100.178.105",
 "95.163.144.221",
+"10.10.0.93",
 ]
 
 //return "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
