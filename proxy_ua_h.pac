@@ -1,5 +1,5 @@
 // ProstoVPN.AntiZapret PAC-host File
-// Version: 2020.1118.2208
+// Version: 2023.0414.2120
 
 function FindProxyForURL(url, host) {
 
@@ -31,7 +31,7 @@ d_all = [
 "yandex.ru",
 "yandex.ua",
 "yastatic.net",
-//"cloud.mail.ru",
+"cloud.mail.ru",
 "cloud-landings-static.hb.bizmrg.com",
 //"rs.mail.ru",
 //"disk.yandex.com",
@@ -43,6 +43,7 @@ d_all = [
 //"mail.yandex.ua",
 //"tech.yandex.ru",
 //"tech.yandex.ua",
+"wdfiles.ru",
 //"www.yandex.net",
 //"www.yandex.ua",
 "www.upload.ee",
@@ -55,6 +56,7 @@ d_ipaddr = [
 "72.21.81.13",
 "77.88.55.66",
 "79.137.156.161",
+"92.101.72.41",
 "94.100.180.70",
 "94.76.107.65",
 "94.100.178.105",
