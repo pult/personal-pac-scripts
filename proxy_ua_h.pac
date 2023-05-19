@@ -1,5 +1,5 @@
 // ProstoVPN.AntiZapret PAC-host File
-// Version: 2023.0414.2120
+// Version: 2023.0519.1724
 
 function FindProxyForURL(url, host) {
 
@@ -47,6 +47,7 @@ d_all = [
 //"www.yandex.net",
 //"www.yandex.ua",
 "www.upload.ee",
+"f2.1rsload.ru",
 ];
 
 d_ipaddr = [
@@ -62,6 +63,7 @@ d_ipaddr = [
 "94.100.178.105",
 "95.163.144.221",
 "10.10.0.93",
+"5.182.5.88",
 ]
 
 //return "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
