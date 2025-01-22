@@ -1,6 +1,6 @@
 // ProstoVPN.AntiZapret PAC-host File
 // Generated on Tue May 26 06:45:00 MSK 2017
-// Version: 2023.0519.1724
+// Version: 2025.0122.0620
 
 function FindProxyForURL(url, host) {
 
@@ -38,6 +38,7 @@ d_all = [
 "wdfiles.ru",
 "www.upload.ee",
 "f2.1rsload.ru",
+"forum.farmanager.com",
 ];
 
 d_ipaddr = [
