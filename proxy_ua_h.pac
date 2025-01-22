@@ -1,6 +1,5 @@
 // ProstoVPN.AntiZapret PAC-host File
-// Version: 2023.0519.1724
-
+// Version: 2025.0122.0620
 function FindProxyForURL(url, host) {
 
 p_dir = "DIRECT";
@@ -48,6 +47,7 @@ d_all = [
 //"www.yandex.ua",
 "www.upload.ee",
 "f2.1rsload.ru",
+"forum.farmanager.com",
 ];
 
 d_ipaddr = [
