@@ -1,6 +1,6 @@
 // ProstoVPN.AntiZapret PAC-host File
 // Generated on Tue May 26 06:45:00 MSK 2017
-// Version: 2025.0122.0620
+// Version: 2025.0728.0000
 
 function FindProxyForURL(url, host) {
 
@@ -40,6 +40,8 @@ d_all = [
 "www.facebook.com",
 "f2.1rsload.ru",
 "forum.farmanager.com",
+"www.farmanager.com",
+"farmanager.com",
 ];
 
 d_ipaddr = [
@@ -55,6 +57,7 @@ d_ipaddr = [
 "157.240.9.35",
 "10.10.0.93",
 "5.182.5.88",
+"93.174.76.52",
 ]
 
 //return "HTTPS proxy.antizapret.prostovpn.org:3143; PROXY proxy.antizapret.prostovpn.org:3128; DIRECT";
